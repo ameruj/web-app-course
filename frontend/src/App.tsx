@@ -1,8 +1,17 @@
+import NavBar from "compoments/NavBar";
+import Footer from "compoments/Footer";
+
+
 function App() {
   return (
-    <div className="App">
-      <h1  className="text-primary">Curso React</h1>
-    </div>
+    <>
+      <NavBar/>
+      <div className="container">
+        <h1  className="text-primary">React Spring Course</h1>
+        <DataTable/>
+      </div>
+      <Footer/>
+    </>
   );
 }
 
