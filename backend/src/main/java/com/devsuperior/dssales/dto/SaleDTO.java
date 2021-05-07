@@ -7,6 +7,10 @@ import com.devsuperior.dssales.entities.Sale;
 
 public class SaleDTO implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Long id;
 	private Integer visited;
 	private Integer deals;
